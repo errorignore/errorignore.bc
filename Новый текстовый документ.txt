@@ -1,0 +1,199 @@
+<!---Formbuilder Form--->
+                                        <div class="col-md-12" data-form-type="formoid">
+                                            <form action="#" method="POST" class="mbr-form form-with-styler" data-form-title="TELLURIAN LAMP">
+                                                <input type="hidden" name="email" data-form-email="true" value="fPHkK2Etb7bTLhAApqvu4IwBbzYB7kdI6DYGBOjVl1wTxG/pUNR0wz5Nd3Cj6yqyzhT6iwWwjHFHgtz7r/sME5aK3g+RW/Xt/sPxc83rox77i+nANowOnp0pco5OnfQJ">
+                                                <div class="row">
+                                                    <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
+                                                </div>
+                                                <div class="dragArea row">
+                                                    <div hidden="hidden" data-for="product-name" class="col-md-12 form-group">
+                                                        <label for="message-*" class="form-control-label mbr-fonts-style display-4">
+                                                            <br>
+                                                            PRODUCT NAME<br>
+                                                            <br>
+                                                        </label>
+                                                        <textarea name="product-name" data-form-field="product-name" class="form-control display-7" id="product-name-*">TELLURIAN LAMP</textarea>
+                                                    </div>
+                                                    <div data-for="count" class="col-md-12 form-group">
+                                                        <label for="count-*" class="form-control-label mbr-fonts-style display-4">
+                                                            COUNT<br>
+                                                            <br>
+                                                        </label>
+                                                        <select class="form-control" name="count" rows="" data-form-field="count" id="count-*">
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                        </select>
+                                                    </div>
+                                                    <div data-for="delivery__opions" class="col-md-12 form-group">
+                                                        <label for="delivery__opions-*" class="form-control-label mbr-fonts-style display-4">
+                                                            DELIVERY OPIONS<br>
+                                                            <br>
+                                                        </label>
+                                                        <select class="form-control" name="delivery" rows="8" data-form-field="delivery" id="delivery-*">
+                                                            <option value="НОВАЯ ПОЧТА">НОВАЯ ПОЧТА</option>
+                                                            <option value="IN TIME">IN TIME</option>
+                                                            <option value="СAT">СAT</option>
+                                                            <option value="DELIVERY">DELIVERY</option>
+                                                            <option value="САМОВЫВОЛЗ">САМОВЫВОЛЗ</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-12  form-group" data-for="location">
+                                                        <label for="location-*" class="form-control-label mbr-fonts-style display-4">
+                                                            DELIVERY LOCATION<br>
+                                                            <br>
+                                                        </label>
+                                                        <input type="text" name="location" data-form-field="location" required="required" class="form-control display-7" id="location-*">
+                                                    </div>
+                                                    <div class="col-md-12  form-group" data-for="name">
+                                                        <label for="name-*" class="form-control-label mbr-fonts-style display-4">
+                                                            NAME<br>
+                                                            <br>
+                                                        </label>
+                                                        <input type="text" name="name" data-form-field="name" required="required" class="form-control display-7" id="name-*">
+                                                    </div>
+                                                    <div class="col-md-12  form-group" data-for="email">
+                                                        <label for="email-*" class="form-control-label mbr-fonts-style display-4">
+                                                            EMAIL<br>
+                                                            <br>
+                                                        </label>
+                                                        <input type="email" name="email" data-form-field="email" required="required" class="form-control display-7" id="email-*">
+                                                    </div>
+                                                    <div data-for="phone" class="col-md-12 form-group">
+                                                        <label for="phone-*" class="form-control-label mbr-fonts-style display-4">
+                                                            PHONE<br>
+                                                            <br>
+                                                        </label>
+                                                        <input type="tel" name="phone" data-form-field="phone" required="required" class="form-control display-7" id="phone-*">
+                                                    </div>
+                                                    <div data-for="message" class="col-md-12 form-group">
+                                                        <label for="message-*" class="form-control-label mbr-fonts-style display-4">
+                                                            MESSAGE<br>
+                                                            <br>
+                                                        </label>
+                                                        <textarea name="message" data-form-field="message" class="form-control display-7" id="message-*"></textarea>
+                                                    </div>
+                                                    <div class="col-md-12 input-group-btn align-center">
+                                                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-md-12" style="padding: 1rem 0rem!important;margin: 1rem 0rem!important;border-radius: 5px;background-color: #FF9800;color: #ffffff;font-size: 0.8rem;font-weight: 300;">ОТПРАВЛЕНА УСПЕШНА ! ВРЕМЯ РЕАКЦИИ ОДИН РАБОЧИЙ ДЕНЬ.СПАСИБО ЧТО ОБРАТИЛИСЬ К НАМ !)</div>
+                                                        <button type="submit" class="btn btn-form btn-primary display-4" style="width: 100%;background-color: #FF9800!important;padding:1rem!important;color: whitesmoke!important;">ОТПРАВИТЬ</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                           </div> 
+										   <!---Formbuilder Form--->
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").toggle();
+  });
+});
+</script>
+<button>Toggle between hide() and show()</button>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+</style>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "//hm.baidu.com/hm.js?73c27e26f610eb3c9f3feb0c75b03925";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <h2>Tada!</h2>
+  <p>Some text in my newly loaded page..</p>
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+</body>
+</html>
